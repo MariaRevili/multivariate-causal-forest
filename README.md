@@ -3,7 +3,7 @@
 
 Credits to timmens: https://github.com/timmens/causal-forest
 
-Minimal Example:
+Minimal Example with a policy (treatment) t, features X and outcomes y1 and y2:
 
 ```
     cf = CausalForest(
@@ -16,9 +16,11 @@ Minimal Example:
         seed_counter=1,    
     )
 
-    cf.fit(X_train, t_train, y1_train, y2_train)
+    cf.fit(X, t, y1, y2)
 
     ##predict the model
     ate1, ate2, std_ate1, std_ate2= cf.predict(X_test)
 
 ```
+
+A full demonstrative example is shown in 
