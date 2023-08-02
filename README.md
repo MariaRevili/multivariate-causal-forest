@@ -4,6 +4,7 @@
 Credits to timmens: https://github.com/timmens/causal-forest
 
 Minimal Example:
+
 ```
     cf = CausalForest(
         num_trees=300,
@@ -19,4 +20,5 @@ Minimal Example:
 
     ##predict the model
     ate1, ate2, std_ate1, std_ate2= cf.predict(X_test)
+
 ```
