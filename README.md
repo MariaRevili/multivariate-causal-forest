@@ -23,4 +23,4 @@ Minimal Example with a policy (treatment) t, features X and outcomes y1 and y2:
 
 ```
 
-A full demonstrative example is shown in 
+A full demonstrative example is shown by simulated_example.py. 
