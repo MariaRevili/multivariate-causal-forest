@@ -3,7 +3,7 @@
 
 Credits to timmens: https://github.com/timmens/causal-forest
 
-Minimal Example with a policy (treatment) t, features X and outcomes y1 and y2:
+A minimal example with a policy (treatment) t, features X and outcomes y1 and y2:
 
 ```
     cf = CausalForest(
